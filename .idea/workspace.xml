@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2670a368-b84f-4d3e-8c13-472e5ed65ca2" name="Changes" comment="Discovery multiple client registering with eureka server">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-discovery/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-discovery/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-discovery/spring-discovery-api-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-discovery/spring-discovery-api-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-discovery/spring-discovery-api-service/src/main/java/com/zubi/spring/projects/service/discovery/api/ServiceDiscoveryApiApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-discovery/spring-discovery-api-service/src/main/java/com/zubi/spring/projects/service/discovery/api/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-discovery/spring-discovery-api-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-discovery/spring-discovery-api-service/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-discovery/spring-discovery-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-discovery/spring-discovery-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-discovery/spring-discovery-service/src/main/java/com/zubi/spring/projects/service/discovery/ServiceDiscoveryApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-discovery/spring-discovery-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-discovery/spring-discovery-service/start.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ax0vrGjPQb7JSu5CR5PznldWl4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/media/afsar/data/software/project/github/eureka/pom.xml"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-discovery/spring-discovery-api-service/src/main" />
+      <recent name="$PROJECT_DIR$/spring-discovery/spring-discovery-api-service/src/main/java/com/zubi/spring/projects/service/discovery/api" />
+      <recent name="$PROJECT_DIR$/spring-discovery" />
+      <recent name="$PROJECT_DIR$/spring-discovery/spring-discovery-service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spring-discovery/spring-discovery-api-service/src/main/java/com/zubi/spring/projects/service/discovery/api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ServiceDiscoveryApiApp">
+    <configuration name="ServiceDiscoveryApiApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zubi.spring.projects.service.discovery.api.ServiceDiscoveryApiApp" />
+      <module name="spring-discovery-api-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zubi.spring.projects.service.discovery.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceDiscoveryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zubi.spring.projects.service.discovery.ServiceDiscoveryApp" />
+      <module name="spring-discovery-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zubi.spring.projects.service.discovery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServiceDiscoveryApiApp" />
+        <item itemvalue="Application.ServiceDiscoveryApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2670a368-b84f-4d3e-8c13-472e5ed65ca2" name="Changes" comment="" />
+      <created>1705245163144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705245163144</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Discovery multiple client registering with eureka server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Discovery multiple client registering with eureka server" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/2.0.1/eureka-client-2.0.1.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>546</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/2.0.1/eureka-client-2.0.1.jar!/com/netflix/discovery/DiscoveryClient.class</url>
+          <line>561</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/2.0.1/eureka-client-2.0.1.jar!/com/netflix/discovery/shared/transport/decorator/RetryableEurekaHttpClient.class</url>
+          <line>120</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-client/2.0.1/eureka-client-2.0.1.jar!/com/netflix/discovery/shared/transport/decorator/RetryableEurekaHttpClient.class</url>
+          <line>83</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,35 @@
+services:
+  eureka-server:
+    image: afsarkhan05/spring-discovery-service:1.0-SNAPSHOT
+    ports:
+      - "8761:8761"
+    networks:
+      - my_network
+
+  eureka-client:
+    image: afsarkhan05/spring-discovery-api-service:1.0-SNAPSHOT
+    ports:
+      - "8081:8081"
+    networks:
+      - my_network
+    environment:
+      - EUREKA_SERVER_URL=http://eureka-server:8761/eureka/
+    depends_on:
+      - eureka-server
+
+  eureka-client2:
+    image: afsarkhan05/spring-discovery-api-service:1.0-SNAPSHOT
+    ports:
+      - "8082:8082"
+    networks:
+      - my_network
+    environment:
+      - "server.port=8082"
+      - "server.servlet.context-path=/second-service"
+      - "spring.application.name=my-second-app"
+    depends_on:
+      - eureka-server
+
+networks:
+  my_network:
+    driver: bridge
