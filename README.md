@@ -46,6 +46,9 @@ docker-compose -f docker-compose.yml up
 
 Services will communicate with network called "my_network"
 
+== Helm deployment on Minikube Kubernetes
+
+https://github.com/afsarkhan05/helm (README for instructions)
 
 
 == Spring boot app with mvn
