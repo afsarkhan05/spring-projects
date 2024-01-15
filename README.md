@@ -37,7 +37,7 @@ This server run under Spring boot, and its include in Spring Cloud Packages.
 
 ### Try it out in multiple ways
 
-== Execute using docker compose
+## Execute using docker compose
 
 ```
 cd spring-discovery
@@ -46,12 +46,12 @@ docker-compose -f docker-compose.yml up
 
 Services will communicate with network called "my_network"
 
-== Helm deployment on Minikube Kubernetes
+## Helm deployment on Minikube Kubernetes
 
 https://github.com/afsarkhan05/helm (README for instructions)
 
 
-== Spring boot app with mvn
+## Spring boot app with mvn
 
 #### Eureka Server
 
